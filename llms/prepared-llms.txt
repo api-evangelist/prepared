@@ -1,0 +1,25 @@
+# Prepared
+
+> Prepared is an AI-powered emergency response platform for 911 communications, now operating as the intelligence layer of Axon 911. Its assistive AI supports call-takers, dispatchers, and supervisors with non-emergency triage, real-time transcription, live translation, multi-channel dispatch monitoring, and quality assurance. Prepared reports supporting 1,000+ PSAPs and protecting 90M+ people. It does not currently publish a public developer API or OpenAPI.
+
+## Company
+- [Website](https://prepared911.com)
+- [Blog](https://prepared911.com/resources/blog)
+- [Case Studies](https://prepared911.com/resources/case-studies)
+- [Trust Center](https://trust.prepared911.com/)
+- [Careers](https://job-boards.greenhouse.io/axon?keyword=Prepared)
+
+## Product
+- [Platform overview](https://prepared911.com) — non-emergency triage, call-taking, dispatch, QA & training
+- [Login / Dispatch Console](https://911.preparedapp.com/login)
+
+## Legal
+- [Terms & Conditions](https://prepared911.com/terms-and-conditions)
+- [Privacy Policy](https://prepared911.com/privacy-policy)
+
+## Support
+- Email: support@prepared911.com
+
+## Notes
+- Backed by a16z and General Catalyst.
+- No public developer API, OpenAPI, developer portal, or status page published at this time.

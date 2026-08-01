@@ -1,9 +1,31 @@
 aid: prepared
 name: Prepared
-description: Prepared is a company surfaced as a portfolio company of a16z, general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Prepared is an AI-powered emergency response platform for 911 communications,
+  now operating as the intelligence layer of Axon 911. Its assistive AI helps
+  call-takers, dispatchers, and supervisors across the emergency response
+  lifecycle with non-emergency call triage and deflection, real-time
+  transcription and automated detail capture, live translation (40+ spoken
+  languages and 200+ for text), multi-channel dispatch monitoring, and real-time
+  quality assurance and training. The company reports supporting 1,000+ PSAPs
+  (public safety answering points) and protecting 90M+ people, with claims of up
+  to 50% faster call processing. Prepared is backed by a16z and General Catalyst
+  and was surfaced through the API Evangelist venture-portfolio pipeline. The
+  company runs a hosted dispatch console at preparedapp.com but does not publish
+  a public developer API, OpenAPI, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/prepared/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://prepared911.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,12 +35,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Emergency Response
+- Public Safety
+- 911
+- Artificial Intelligence
+- Communications
+- Translation
+- GovTech
+- Dispatch
 apis: []
+common:
+- type: DomainSecurity
+  url: security/prepared-domain-security.yml
+- type: LLMsTxt
+  url: llms/prepared-llms.txt
+- type: Website
+  url: https://prepared911.com
+- type: Blog
+  url: https://prepared911.com/resources/blog
+- type: Support
+  url: mailto:support@prepared911.com
+- type: TermsOfService
+  url: https://prepared911.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://prepared911.com/privacy-policy
+- type: TrustCenter
+  url: https://trust.prepared911.com/
+- type: SignUp
+  url: https://911.preparedapp.com/login
+- type: Login
+  url: https://911.preparedapp.com/login
+- type: Careers
+  url: https://job-boards.greenhouse.io/axon?keyword=Prepared
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
